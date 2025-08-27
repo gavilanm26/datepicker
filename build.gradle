@@ -7,8 +7,8 @@ buildscript {
 
     }
     dependencies {
-        classpath "net.serenity-bdd:serenity-gradle-plugin:4.2.33"
-        classpath "net.serenity-bdd:serenity-single-page-report:4.2.33"
+        classpath "net.serenity-bdd:serenity-gradle-plugin:4.2.34"
+        classpath "net.serenity-bdd:serenity-single-page-report:4.2.34"
     }
 }
 
@@ -31,7 +31,7 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 ext {
-    serenityVersion = '4.2.33'
+    serenityVersion = '4.2.34'
     junitVersion = '5.13.1'
     poiVesrion = '5.4.1'
     loggerslf4j = '2.0.17'
