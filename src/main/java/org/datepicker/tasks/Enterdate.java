@@ -4,6 +4,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Enter;
+import net.serenitybdd.screenplay.actions.SendKeys;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import net.serenitybdd.annotations.Step;
 import org.datepicker.UI.datepickerUI;
@@ -23,11 +24,11 @@ public class Enterdate implements Task {
   public <T extends Actor> void performAs(T actor) {
     actor.attemptsTo(
             WaitUntil.the(datepickerUI.INPUTDATE, isVisible()).forNoMoreThan(10).seconds(),
-            Enter.theValue(date).into(datepickerUI.INPUTDATE)
+            SendKeys.of(date).into(datepickerUI.INPUTDATE)
     );
-
   }
 
-  public static Enterdate todatepicker(String date) { return Tasks.instrumented(Enterdate.class, date);
+  public static Enterdate todatepicker(String date) {
+    return Tasks.instrumented(Enterdate.class, date);
   }
 }

@@ -11,12 +11,12 @@ public class Result implements Question<Boolean> {
 
   private final String expectDate;
 
-  public Result(String expectedProductName) {this.expectDate = expectedProductName;
+  public Result(String expectedProductName) {
+    this.expectDate = expectedProductName;
   }
 
   @Override
   public Boolean answeredBy(Actor actor) {
-    System.out.println("fecha del excel " + expectDate);
     WaitUntil.the(datepickerUI.INPUTDATE, WebElementStateMatchers.isVisible())
             .forNoMoreThan(8000).milliseconds();
 
