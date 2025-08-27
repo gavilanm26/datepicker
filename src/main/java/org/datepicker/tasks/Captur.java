@@ -6,12 +6,14 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.questions.Text;
 import net.serenitybdd.screenplay.ensure.Ensure;
 import net.serenitybdd.screenplay.waits.WaitUntil;
+import net.serenitybdd.annotations.Step;
 import org.datepicker.UI.datepickerUI;
 
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class Captur implements Task {
 
+    @Step("{0} captura el mes actual")
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(

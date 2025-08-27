@@ -5,6 +5,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.waits.WaitUntil;
+import net.serenitybdd.annotations.Step;
 import org.datepicker.UI.datepickerUI;
 
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
@@ -17,6 +18,7 @@ public class Enterdate implements Task {
     this.date = date;
   }
 
+  @Step("{0} ingresa manualmente la fecha {date}")
   @Override
   public <T extends Actor> void performAs(T actor) {
     actor.attemptsTo(

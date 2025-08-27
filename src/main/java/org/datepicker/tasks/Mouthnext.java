@@ -5,12 +5,14 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.waits.WaitUntil;
+import net.serenitybdd.annotations.Step;
 import org.datepicker.UI.datepickerUI;
 
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isClickable;
 
 public class Mouthnext implements Task {
 
+  @Step("{0} navega al mes siguiente")
   @Override
   public <T extends Actor> void performAs(T actor) {
     actor.attemptsTo(

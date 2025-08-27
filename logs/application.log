@@ -73,3 +73,603 @@ enter a date
 -----------------------------------------------------------------------
 2025-08-26 19:20:05 ERROR :259 -     Test failed at step: Then Validar que el campo de fecha es de solo lectura (sin edición manual) should be (true)
 2025-08-26 19:20:05 ERROR :261 -     Expected: is <true> but: was <false>
+2025-08-26 19:42:14 INFO  :98 - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at https://serenity-bdd.info                                     
+ Documentation at https://serenity-bdd.github.io                                     
+ Test Automation Training and Coaching: https://www.serenity-dojo.com                
+ Commercial Support: https://www.serenity-dojo.com/serenity-bdd-enterprise-support   
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+-------------------------------------------------------------------------------------
+
+2025-08-26 19:42:14 INFO  :125 - Test Suite Started: Date Selection in JQuery Datepicker
+2025-08-26 19:42:15 INFO  :125 - Test Suite Started: Date Selection in JQuery Datepicker
+2025-08-26 19:42:15 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Select current month's 15th day from Datepicker(date-selection-in-jquery-datepicker;select-current-month-s-15th-day-from-datepicker)
+--------------------------------------------------------------------------------
+2025-08-26 19:42:15 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:42:15 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:42:19 INFO  :279 - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Select current month's 15th day from Datepicker
+----------------------------------------------------------------------
+2025-08-26 19:42:19 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Select the month closest to the current month and the 10th of the current month in the date picker.(date-selection-in-jquery-datepicker;select-the-month-closest-to-the-current-month-and-the-10th-of-the-current-month-in-the-date-picker.)
+--------------------------------------------------------------------------------
+2025-08-26 19:42:19 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:42:19 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:42:22 INFO  :279 - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Select the month closest to the current month and the 10th of the current month in the date picker.
+----------------------------------------------------------------------
+2025-08-26 19:42:22 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+enter a date(date-selection-in-jquery-datepicker;enter-a-date)
+--------------------------------------------------------------------------------
+2025-08-26 19:42:22 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:42:22 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:42:27 ERROR :226 - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+enter a date
+-----------------------------------------------------------------------
+2025-08-26 19:42:27 ERROR :259 -     Test failed at step: Then Validar que el campo de fecha es de solo lectura (sin edición manual) should be (true)
+2025-08-26 19:42:27 ERROR :261 -     Expected: is <true> but: was <false>
+2025-08-26 19:43:54 INFO  :98 - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at https://serenity-bdd.info                                     
+ Documentation at https://serenity-bdd.github.io                                     
+ Test Automation Training and Coaching: https://www.serenity-dojo.com                
+ Commercial Support: https://www.serenity-dojo.com/serenity-bdd-enterprise-support   
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+-------------------------------------------------------------------------------------
+
+2025-08-26 19:43:54 INFO  :125 - Test Suite Started: Date Selection in JQuery Datepicker
+2025-08-26 19:43:55 INFO  :125 - Test Suite Started: Date Selection in JQuery Datepicker
+2025-08-26 19:43:55 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Select current month's 15th day from Datepicker(date-selection-in-jquery-datepicker;select-current-month-s-15th-day-from-datepicker)
+--------------------------------------------------------------------------------
+2025-08-26 19:43:55 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:43:55 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:43:59 INFO  :279 - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Select current month's 15th day from Datepicker
+----------------------------------------------------------------------
+2025-08-26 19:43:59 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Select the month closest to the current month and the 10th of the current month in the date picker.(date-selection-in-jquery-datepicker;select-the-month-closest-to-the-current-month-and-the-10th-of-the-current-month-in-the-date-picker.)
+--------------------------------------------------------------------------------
+2025-08-26 19:43:59 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:43:59 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:44:02 INFO  :279 - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Select the month closest to the current month and the 10th of the current month in the date picker.
+----------------------------------------------------------------------
+2025-08-26 19:44:02 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+enter a date(date-selection-in-jquery-datepicker;enter-a-date)
+--------------------------------------------------------------------------------
+2025-08-26 19:44:02 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:44:02 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:44:08 ERROR :226 - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+enter a date
+-----------------------------------------------------------------------
+2025-08-26 19:44:08 ERROR :259 -     Test failed at step: Then Validar que el campo de fecha es de solo lectura (sin edición manual) should be (true)
+2025-08-26 19:44:08 ERROR :261 -     Expected: is <true> but: was <false>
+2025-08-26 19:44:17 INFO  :98 - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at https://serenity-bdd.info                                     
+ Documentation at https://serenity-bdd.github.io                                     
+ Test Automation Training and Coaching: https://www.serenity-dojo.com                
+ Commercial Support: https://www.serenity-dojo.com/serenity-bdd-enterprise-support   
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+-------------------------------------------------------------------------------------
+
+2025-08-26 19:44:17 INFO  :125 - Test Suite Started: Date Selection in JQuery Datepicker
+2025-08-26 19:44:17 INFO  :125 - Test Suite Started: Date Selection in JQuery Datepicker
+2025-08-26 19:44:17 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Select current month's 15th day from Datepicker(date-selection-in-jquery-datepicker;select-current-month-s-15th-day-from-datepicker)
+--------------------------------------------------------------------------------
+2025-08-26 19:44:17 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:44:17 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:44:21 INFO  :279 - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Select current month's 15th day from Datepicker
+----------------------------------------------------------------------
+2025-08-26 19:44:21 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Select the month closest to the current month and the 10th of the current month in the date picker.(date-selection-in-jquery-datepicker;select-the-month-closest-to-the-current-month-and-the-10th-of-the-current-month-in-the-date-picker.)
+--------------------------------------------------------------------------------
+2025-08-26 19:44:21 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:44:21 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:44:24 INFO  :279 - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Select the month closest to the current month and the 10th of the current month in the date picker.
+----------------------------------------------------------------------
+2025-08-26 19:44:24 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+enter a date(date-selection-in-jquery-datepicker;enter-a-date)
+--------------------------------------------------------------------------------
+2025-08-26 19:44:24 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:44:24 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:44:29 ERROR :226 - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+enter a date
+-----------------------------------------------------------------------
+2025-08-26 19:44:29 ERROR :259 -     Test failed at step: Then Validar que el campo de fecha es de solo lectura (sin edición manual) should be (true)
+2025-08-26 19:44:29 ERROR :261 -     Expected: is <true> but: was <false>
+2025-08-26 19:46:50 INFO  :98 - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at https://serenity-bdd.info                                     
+ Documentation at https://serenity-bdd.github.io                                     
+ Test Automation Training and Coaching: https://www.serenity-dojo.com                
+ Commercial Support: https://www.serenity-dojo.com/serenity-bdd-enterprise-support   
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+-------------------------------------------------------------------------------------
+
+2025-08-26 19:46:50 INFO  :125 - Test Suite Started: Date Selection in JQuery Datepicker
+2025-08-26 19:46:50 INFO  :125 - Test Suite Started: Date Selection in JQuery Datepicker
+2025-08-26 19:46:51 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Select current month's 15th day from Datepicker(date-selection-in-jquery-datepicker;select-current-month-s-15th-day-from-datepicker)
+--------------------------------------------------------------------------------
+2025-08-26 19:46:51 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:46:51 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:46:54 INFO  :279 - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Select current month's 15th day from Datepicker
+----------------------------------------------------------------------
+2025-08-26 19:46:54 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Select the month closest to the current month and the 10th of the current month in the date picker.(date-selection-in-jquery-datepicker;select-the-month-closest-to-the-current-month-and-the-10th-of-the-current-month-in-the-date-picker.)
+--------------------------------------------------------------------------------
+2025-08-26 19:46:55 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:46:55 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:46:58 INFO  :279 - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Select the month closest to the current month and the 10th of the current month in the date picker.
+----------------------------------------------------------------------
+2025-08-26 19:46:58 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+enter a date(date-selection-in-jquery-datepicker;enter-a-date)
+--------------------------------------------------------------------------------
+2025-08-26 19:46:58 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:46:58 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:47:03 ERROR :226 - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+enter a date
+-----------------------------------------------------------------------
+2025-08-26 19:47:03 ERROR :259 -     Test failed at step: Then Validar que el campo de fecha es de solo lectura (sin edición manual) should be (true)
+2025-08-26 19:47:03 ERROR :261 -     Expected: is <true> but: was <false>
+2025-08-26 19:50:22 INFO  :98 - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at https://serenity-bdd.info                                     
+ Documentation at https://serenity-bdd.github.io                                     
+ Test Automation Training and Coaching: https://www.serenity-dojo.com                
+ Commercial Support: https://www.serenity-dojo.com/serenity-bdd-enterprise-support   
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+-------------------------------------------------------------------------------------
+
+2025-08-26 19:50:22 INFO  :125 - Test Suite Started: Date Selection in JQuery Datepicker
+2025-08-26 19:50:22 INFO  :125 - Test Suite Started: Date Selection in JQuery Datepicker
+2025-08-26 19:50:22 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Select current month's 15th day from Datepicker(date-selection-in-jquery-datepicker;select-current-month-s-15th-day-from-datepicker)
+--------------------------------------------------------------------------------
+2025-08-26 19:50:23 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:50:23 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:50:26 INFO  :279 - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Select current month's 15th day from Datepicker
+----------------------------------------------------------------------
+2025-08-26 19:50:26 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Select the month closest to the current month and the 10th of the current month in the date picker.(date-selection-in-jquery-datepicker;select-the-month-closest-to-the-current-month-and-the-10th-of-the-current-month-in-the-date-picker.)
+--------------------------------------------------------------------------------
+2025-08-26 19:50:26 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:50:26 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:50:29 INFO  :279 - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Select the month closest to the current month and the 10th of the current month in the date picker.
+----------------------------------------------------------------------
+2025-08-26 19:50:29 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+enter a date(date-selection-in-jquery-datepicker;enter-a-date)
+--------------------------------------------------------------------------------
+2025-08-26 19:50:29 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:50:29 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:50:35 ERROR :226 - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+enter a date
+-----------------------------------------------------------------------
+2025-08-26 19:50:35 ERROR :259 -     Test failed at step: Then Validar que el campo de fecha es de solo lectura (sin edición manual) should be (true)
+2025-08-26 19:50:35 ERROR :261 -     Expected: is <true> but: was <false>
+2025-08-26 19:52:37 INFO  :98 - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at https://serenity-bdd.info                                     
+ Documentation at https://serenity-bdd.github.io                                     
+ Test Automation Training and Coaching: https://www.serenity-dojo.com                
+ Commercial Support: https://www.serenity-dojo.com/serenity-bdd-enterprise-support   
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+-------------------------------------------------------------------------------------
+
+2025-08-26 19:52:37 INFO  :125 - Test Suite Started: Date Selection in JQuery Datepicker
+2025-08-26 19:52:37 INFO  :125 - Test Suite Started: Date Selection in JQuery Datepicker
+2025-08-26 19:52:38 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Select current month's 15th day from Datepicker(date-selection-in-jquery-datepicker;select-current-month-s-15th-day-from-datepicker)
+--------------------------------------------------------------------------------
+2025-08-26 19:52:38 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:52:38 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:52:41 INFO  :279 - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Select current month's 15th day from Datepicker
+----------------------------------------------------------------------
+2025-08-26 19:52:41 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Select the month closest to the current month and the 10th of the current month in the date picker.(date-selection-in-jquery-datepicker;select-the-month-closest-to-the-current-month-and-the-10th-of-the-current-month-in-the-date-picker.)
+--------------------------------------------------------------------------------
+2025-08-26 19:52:41 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:52:41 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:52:45 INFO  :279 - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Select the month closest to the current month and the 10th of the current month in the date picker.
+----------------------------------------------------------------------
+2025-08-26 19:52:45 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+enter a date(date-selection-in-jquery-datepicker;enter-a-date)
+--------------------------------------------------------------------------------
+2025-08-26 19:52:45 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:52:45 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:52:51 ERROR :226 - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+enter a date
+-----------------------------------------------------------------------
+2025-08-26 19:52:51 ERROR :259 -     Test failed at step: Then Validar que el campo de fecha es de solo lectura (sin edición manual) should be (true)
+2025-08-26 19:52:51 ERROR :261 -     Expected: is <true> but: was <false>
+2025-08-26 19:53:10 INFO  :98 - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at https://serenity-bdd.info                                     
+ Documentation at https://serenity-bdd.github.io                                     
+ Test Automation Training and Coaching: https://www.serenity-dojo.com                
+ Commercial Support: https://www.serenity-dojo.com/serenity-bdd-enterprise-support   
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+-------------------------------------------------------------------------------------
+
+2025-08-26 19:53:10 INFO  :125 - Test Suite Started: Date Selection in JQuery Datepicker
+2025-08-26 19:53:10 INFO  :125 - Test Suite Started: Date Selection in JQuery Datepicker
+2025-08-26 19:53:10 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Select current month's 15th day from Datepicker(date-selection-in-jquery-datepicker;select-current-month-s-15th-day-from-datepicker)
+--------------------------------------------------------------------------------
+2025-08-26 19:53:11 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:53:11 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:53:14 INFO  :279 - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Select current month's 15th day from Datepicker
+----------------------------------------------------------------------
+2025-08-26 19:53:14 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Select the month closest to the current month and the 10th of the current month in the date picker.(date-selection-in-jquery-datepicker;select-the-month-closest-to-the-current-month-and-the-10th-of-the-current-month-in-the-date-picker.)
+--------------------------------------------------------------------------------
+2025-08-26 19:53:14 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:53:14 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:53:17 INFO  :279 - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Select the month closest to the current month and the 10th of the current month in the date picker.
+----------------------------------------------------------------------
+2025-08-26 19:53:17 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+enter a date(date-selection-in-jquery-datepicker;enter-a-date)
+--------------------------------------------------------------------------------
+2025-08-26 19:53:17 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 19:53:17 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 19:53:23 ERROR :226 - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+enter a date
+-----------------------------------------------------------------------
+2025-08-26 19:53:23 ERROR :259 -     Test failed at step: Then Validar que el campo de fecha es de solo lectura (sin edición manual) should be (true)
+2025-08-26 19:53:23 ERROR :261 -     Expected: is <true> but: was <false>
+2025-08-26 20:00:54 INFO  :98 - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at https://serenity-bdd.info                                     
+ Documentation at https://serenity-bdd.github.io                                     
+ Test Automation Training and Coaching: https://www.serenity-dojo.com                
+ Commercial Support: https://www.serenity-dojo.com/serenity-bdd-enterprise-support   
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+-------------------------------------------------------------------------------------
+
+2025-08-26 20:00:54 INFO  :125 - Test Suite Started: Date Selection in JQuery Datepicker
+2025-08-26 20:00:54 INFO  :125 - Test Suite Started: Date Selection in JQuery Datepicker
+2025-08-26 20:00:54 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Select current month's 15th day from Datepicker(date-selection-in-jquery-datepicker;select-current-month-s-15th-day-from-datepicker)
+--------------------------------------------------------------------------------
+2025-08-26 20:00:54 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 20:00:54 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 20:00:58 INFO  :279 - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Select current month's 15th day from Datepicker
+----------------------------------------------------------------------
+2025-08-26 20:00:58 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Select the month closest to the current month and the 10th of the current month in the date picker.(date-selection-in-jquery-datepicker;select-the-month-closest-to-the-current-month-and-the-10th-of-the-current-month-in-the-date-picker.)
+--------------------------------------------------------------------------------
+2025-08-26 20:00:58 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 20:00:58 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 20:01:01 INFO  :279 - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Select the month closest to the current month and the 10th of the current month in the date picker.
+----------------------------------------------------------------------
+2025-08-26 20:01:01 INFO  :141 - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+enter a date(date-selection-in-jquery-datepicker;enter-a-date)
+--------------------------------------------------------------------------------
+2025-08-26 20:01:01 INFO  ChromeDriverProvider:70 - Starting Chrome driver instance with capabilities:
+2025-08-26 20:01:01 INFO  ChromeDriverProvider:71 - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}
+2025-08-26 20:01:07 ERROR :226 - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+enter a date
+-----------------------------------------------------------------------
+2025-08-26 20:01:07 ERROR :259 -     Test failed at step: Then Validar que el campo de fecha es de solo lectura (sin edición manual) should be (true)
+2025-08-26 20:01:07 ERROR :261 -     Expected: is <true> but: was <false>

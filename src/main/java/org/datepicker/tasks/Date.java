@@ -6,10 +6,12 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Switch;
 import net.serenitybdd.screenplay.waits.WaitUntil;
+import net.serenitybdd.annotations.Step;
 import org.datepicker.UI.datepickerUI;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class Date implements Task {
+    @Step("{0} hace clic en el campo de fecha")
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
