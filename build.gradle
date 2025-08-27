@@ -1,0 +1,63 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+
+    }
+    dependencies {
+        classpath "net.serenity-bdd:serenity-gradle-plugin:4.2.33"
+        classpath "net.serenity-bdd:serenity-single-page-report:4.2.33"
+    }
+}
+
+plugins {
+    id 'java'
+}
+
+apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
+
+
+group = 'com.opencart'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+ext {
+    serenityVersion = '4.2.33'
+    junitVersion = '5.13.1'
+    poiVesrion = '5.4.1'
+    loggerslf4j = '2.0.17'
+}
+
+dependencies {
+    // ✅ Selenium + Serenity + Cucumber + Screenplay
+    implementation("net.serenity-bdd:serenity-core:${serenityVersion}")
+    implementation("net.serenity-bdd:serenity-junit:${serenityVersion}")
+    implementation("net.serenity-bdd:serenity-screenplay:${serenityVersion}")
+    implementation("net.serenity-bdd:serenity-cucumber:${serenityVersion}")
+    implementation("net.serenity-bdd:serenity-screenplay-webdriver:${serenityVersion}")
+    implementation("net.serenity-bdd:serenity-ensure:${serenityVersion}")
+
+
+    // ✅ JUnit 4
+    testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+    testImplementation("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+    testImplementation("org.junit.jupiter:junit-jupiter-params:${junitVersion}")
+
+    // ✅ Logging (para consola en pruebas)
+    testImplementation("org.slf4j:slf4j-api:${loggerslf4j}")
+    testImplementation("org.slf4j:slf4j-log4j12:${loggerslf4j}")
+
+    // ✅ Apache POI (Excel, Word)
+    implementation("org.apache.poi:poi:${poiVesrion}")
+    implementation("org.apache.poi:poi-ooxml:${poiVesrion}")
+
+}
